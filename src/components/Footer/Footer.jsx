@@ -33,6 +33,11 @@ export default function Footer() {
                                         Contact
                                     </NavLink>
                                 </li>
+                                <li>
+                                    <NavLink to="/github" className={({isActive}) => `hover:underline ${isActive ? "text-orange-700" : "text-gray-700"}`}>
+                                        Github
+                                    </NavLink>
+                                </li>
                             </ul>
                         </div>
                         <div>
@@ -40,7 +45,7 @@ export default function Footer() {
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
                                     <a
-                                        href="https://github.com/hiteshchoudhary"
+                                        href="https://github.com/hadiraza04"
                                         className="hover:underline"
                                         target="_blank"
                                         rel="noreferrer"
@@ -77,7 +82,7 @@ export default function Footer() {
                     <span className="text-sm text-gray-500 sm:text-center">
                         © 2023
                         <a href="https://hiteshchoudhary.com/" className="hover:underline">
-                            hiteshchoudhary
+                            hadiraza04
                         </a>
                         . All Rights Reserved.
                     </span>
@@ -142,7 +147,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">GitHub account</span>
                         </Link>
-                        <Link to="#" className="text-gray-500">
+                        <Link to="/github" className="text-gray-500">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
