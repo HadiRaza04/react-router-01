@@ -20,7 +20,7 @@ export default function Github() {
                 <li>Name: {data.name}</li>
                 <li>Github UserName: {data.login}</li>
                 <li>Followers: {data.followers}</li>
-                <li>Site: <a href="https://hadirazaportfolio.web.app" target='_blank' className='text-blue-500'>{data.blog}</a></li>
+                <li>Site: <a href="https://hadiraza.vercel.app" target='_blank' className='text-blue-500'>{data.blog}</a></li>
             </ul>
         </div>
     </div>
